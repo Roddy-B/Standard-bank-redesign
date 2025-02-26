@@ -5,7 +5,6 @@ export default function Negocio() {
     <section>
       <div className="container mx-auto  relative">
         <div className="flex items-center justify-center">
-          {/* Image */}
           <Image
             src="/negocio.jpg"
             alt="Banco pessoal simplificado"

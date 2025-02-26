@@ -13,7 +13,7 @@ interface ServiceCardProps {
 export function Post ({ imageSrc, date, titulo}: ServiceCardProps) {
     return (
             <div>
-              <div className="card-container w-[384px] h-[428px] flex flex-col border-[1px] border-graycard bg-primaryc text-primary items-center justify-center rounded">
+              <div className="card-container w-[384px] h-[428px] flex flex-col border-[1px] border-graycard bg-primaryc text-primary items-center justify-center rounded hover:border-bluebtn">
                 <div className="p-2 flex flex-col items-center">
                     <div>
                         {imageSrc &&

@@ -44,13 +44,13 @@ export default function Footer() {
             <p className="text-2xl font-semibold pb-5">Baixe o nosso app</p>
             <div className="flex flex-col md:flex-row gap-4 text-white">
               <Link href="#">
-                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg p-4"> 
+                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg p-4 hover:bg-black hover:text-white"> 
                     <FaApple className="w-6 h-6 mr-2" />
                     <span>Download via Apple Store</span> 
                 </button>
               </Link>
               <Link href="#">
-                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg p-4">
+                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg p-4  hover:bg-black hover:text-white">
                     <FaGooglePlay className="w-6 h-6 mr-2" /> 
                     <span>Download via Google Play</span> 
                 </button>

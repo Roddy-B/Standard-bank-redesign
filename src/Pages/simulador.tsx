@@ -9,7 +9,7 @@ export default function Simulador() {
                     <p className="text-5xl font-medium mb-4 font-franklin text-bluetext leading-6">
                         Simuladores
                     </p>
-                    <p className="text-lg font-inter font-medium text-bluetext pt-2">
+                    <p className="text-lg font-inter font-medium text-graybody pt-2">
                         Explore nossos simuladores financeiros para tomar decisões inteligentes. Planeje, <br/>
                         simule e alcance seus objetivos financeiros com facilidade.</p>
                 </div>
