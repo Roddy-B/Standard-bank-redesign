@@ -31,7 +31,7 @@ export default function Header() {
                         <FiSearch />
                         Buscar
                     </button>
-                    <button className='flex w-[298px] h-[80px] justify-center bg-secondary items-center gap-2 text-blue-950 font-medium cursor-default'>
+                    <button className='flex w-[298px] h-[80px] justify-center bg-secondary items-center gap-2 text-blue-950 font-semibold cursor-default'>
                         <FiLock />
                         Acessar Entrar
                     </button>

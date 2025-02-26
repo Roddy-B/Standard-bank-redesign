@@ -5,11 +5,11 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="max-w-[1216px] mx-auto bg-white text-graybody font-inter mb-2 ">
-      <div className="flex flex-col md:flex-row gap-6 justify-between p-4">
+    <footer className="max-w-[1216px] mx-auto bg-white text-graybody mb-2 font-inter font-medium">
+      <div className="flex flex-col md:flex-row gap-6 justify-between p-4 font-semibold leading-lnL ">
         <div>
           <h2 className="font-semibold text-2xl pb-4">Sobre Nós</h2>
-          <ul className="pb-4 leading-6 tracking-custom-wide font-medium space-y-2">
+          <ul className="pb-4 leading-6 tracking-custom-wide space-y-2">
             <li><Link href="#">Nossos Valores</Link></li>
             <li><Link href="#">Visão</Link></li>
             <li><Link href="#">Responsabilidade Social</Link></li>
@@ -20,7 +20,7 @@ export default function Footer() {
 
         <div>
           <h2 className="font-semibold text-2xl pb-4">Produto</h2>
-          <ul className="leading-6 tracking-custom-wide font-medium space-y-2">
+          <ul className="leading-6 tracking-custom-wide  space-y-2">
             <li><Link href="#">Descoberto autorizado</Link></li>
             <li><Link href="#">CrediAzul</Link></li>
             <li><Link href="#">Crédito habitacão</Link></li>
@@ -62,10 +62,10 @@ export default function Footer() {
 
       <div className="border-t border-gray-200 mt-8"></div>
 
-      <div className="flex flex-col md:flex-row mt-4 justify-between p-4 ">
+      <div className="flex flex-col md:flex-row mt-4 justify-between p-4 font-inter font-semibold leading-6">
         <div className="w-full md:w-[595px] pr-4"> 
           <Image src="/logo2.png" alt="logo" width={30} height={30} />
-          <p className="mt-2 leading-6 tracking-custom-wide font-medium">
+          <p className="mt-2 leading-6 tracking-custom-wide ">
             PAIA | Fica | NCA © 2024 | standardbank.co.mz é um serviço de Internet
             Banking disponibilizado pelo Standard Bank, S.A.,autorizada nos
             termos da legislação sobre consultoria financeira e serviços de
@@ -73,7 +73,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row items-end pt-3 leading-6 tracking-custom-wide font-medium text-graybody">
+        <div className="flex flex-col md:flex-row items-end pt-3 leading-6 tracking-custom-wide  text-graybody">
           <ul className="flex flex-col md:flex-row gap-5 underline underline-offset-2"> 
             <li><Link href="#">Standard Bank Group</Link></li>
             <li><Link href="#">Copyright</Link></li>
