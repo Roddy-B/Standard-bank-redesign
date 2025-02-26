@@ -1,6 +1,3 @@
-import { MdOutlineAccountBalance, MdCreditCard, MdDirectionsCar } from "react-icons/md";
-import { IoHomeOutline, IoWalletSharp } from "react-icons/io5";
-import { PiSuitcaseRolling } from "react-icons/pi";
 import { IoIosArrowForward } from "react-icons/io";
 import { SimuladorCard } from "@/components/cards/simulador";
 

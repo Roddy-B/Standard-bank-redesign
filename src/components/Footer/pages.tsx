@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row gap-6 justify-between p-4 font-semibold leading-lnL ">
         <div>
           <h2 className="font-semibold text-2xl pb-4">Sobre Nós</h2>
-          <ul className="pb-4 leading-6 tracking-custom-wide space-y-2">
+          <ul className="pb-4 leading-6 tracking-custom-wide font-franklin font-medium space-y-2">
             <li><Link href="#">Nossos Valores</Link></li>
             <li><Link href="#">Visão</Link></li>
             <li><Link href="#">Responsabilidade Social</Link></li>
@@ -20,7 +20,7 @@ export default function Footer() {
 
         <div>
           <h2 className="font-semibold text-2xl pb-4">Produto</h2>
-          <ul className="leading-6 tracking-custom-wide  space-y-2">
+          <ul className="leading-6 tracking-custom-wide font-franklin font-medium space-y-2">
             <li><Link href="#">Descoberto autorizado</Link></li>
             <li><Link href="#">CrediAzul</Link></li>
             <li><Link href="#">Crédito habitacão</Link></li>
@@ -44,13 +44,13 @@ export default function Footer() {
             <p className="text-2xl font-semibold pb-5">Baixe o nosso app</p>
             <div className="flex flex-col md:flex-row gap-4 text-white">
               <Link href="#">
-                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg"> 
+                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg p-4"> 
                     <FaApple className="w-6 h-6 mr-2" />
                     <span>Download via Apple Store</span> 
                 </button>
               </Link>
               <Link href="#">
-                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg">
+                <button className="flex w-full md:w-44 h-[74px] items-center justify-center bg-primary rounded-lg p-4">
                     <FaGooglePlay className="w-6 h-6 mr-2" /> 
                     <span>Download via Google Play</span> 
                 </button>
@@ -62,7 +62,7 @@ export default function Footer() {
 
       <div className="border-t border-gray-200 mt-8"></div>
 
-      <div className="flex flex-col md:flex-row mt-4 justify-between p-4 font-inter font-semibold leading-6">
+      <div className="flex flex-col md:flex-row mt-4 justify-between p-4 font-franklin font-medium leading-6">
         <div className="w-full md:w-[595px] pr-4"> 
           <Image src="/logo2.png" alt="logo" width={30} height={30} />
           <p className="mt-2 leading-6 tracking-custom-wide ">

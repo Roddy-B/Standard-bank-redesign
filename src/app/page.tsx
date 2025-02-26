@@ -5,6 +5,8 @@ import Digital from './../Pages/digital';
 import Negocio from './../Pages/negocio';
 import Cambio from './../Pages/cambio';
 import Simulador from './../Pages/simulador';
+import Atendimento from './../Pages/atendimento';
+import Noticia from './../Pages/noticia';
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Negocio />
       <Cambio />
       <Simulador />
+      <Atendimento />
+      <Noticia />
     </div>
   );
 }

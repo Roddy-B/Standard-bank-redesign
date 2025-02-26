@@ -10,7 +10,7 @@ interface ServiceCardProps {
 export function Card ({ icon: Icon, imageSrc,  text,}: ServiceCardProps) {
     return (
             <div>
-              <div className="card-container w-44 h-44 flex flex-col bg-primaryc text-primary items-center justify-center rounded">
+              <div className="card-container w-44 h-44 flex flex-col border-[1px] border-graycard bg-primaryc text-primary items-center justify-center rounded">
                 <div className="p-2 flex flex-col items-center">
                   {imageSrc &&
                     <Image 
@@ -22,7 +22,7 @@ export function Card ({ icon: Icon, imageSrc,  text,}: ServiceCardProps) {
                     />}
                   {Icon && 
                     <Icon className=" card-icon w-6 h-6"/> }
-                   <p className="card-text font-medium text-lg text-graybody font-franklin w-[129px] items-center text-center">{text}</p>
+                   <p className="card-text font-medium text-base text-graybody font-franklin w-[129px] items-center text-center">{text}</p>
                 </div>
                 
               </div>

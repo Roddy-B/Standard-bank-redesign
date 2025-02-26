@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import CambioCard from './../components/cards/cambio';
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -9,7 +10,7 @@ export default function Cambio() {
             <div className="p-28 flex flex-col gap-16 justify-center">
                 <div className="flex items-center justify-between ">
                     <h1 className="text-5xl font-medium font-franklin leading-lnH pt-4">Câmbios indicativos</h1>
-                    <p className='text-lg font-normal leading-lnL flex items-center gap-2'>Ver mais taxas de forex  <IoIosArrowForward /></p>
+                    <Link href="#" className='text-lg font-normal leading-lnL flex items-center gap-2'>Ver mais taxas de forex  <IoIosArrowForward /></Link>
                 </div>
                 <div>
                     <div className=" flex gap-6 justify-between">
