@@ -13,7 +13,7 @@ export default function Header() {
                     height={40}
                     />
                     <div>
-                    <ul className='flex gap-4 pl-8'>
+                    <ul className='flex gap-4 pl-8 font-inter font-medium'>
                         <li>
                             <Link href="#">Para Você</Link>
                         </li>
@@ -26,7 +26,7 @@ export default function Header() {
                     </ul>
                     </div>
                 </div>
-                <div className='flex items-center gap-6'>
+                <div className='flex items-center gap-6 font-inter font-medium'>
                     <button className='flex items-center gap-2'>
                         <FiSearch />
                         Buscar

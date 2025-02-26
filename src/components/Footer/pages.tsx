@@ -73,7 +73,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row items-start pt-3 leading-6 tracking-custom-wide font-medium text-graybody">
+        <div className="flex flex-col md:flex-row items-end pt-3 leading-6 tracking-custom-wide font-medium text-graybody">
           <ul className="flex flex-col md:flex-row gap-5 underline underline-offset-2"> 
             <li><Link href="#">Standard Bank Group</Link></li>
             <li><Link href="#">Copyright</Link></li>

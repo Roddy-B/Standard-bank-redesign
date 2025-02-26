@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import Header from './../components/Header/pages';
 import Footer from './../components/Footer/pages';
@@ -10,6 +10,11 @@ const geistSans = Geist({
 });
 
 const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const LibreFranklin = Libre_Franklin({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
