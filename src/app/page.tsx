@@ -3,6 +3,8 @@ import Hero from './../Pages/hero';
 import Service from './../Pages/service';
 import Digital from './../Pages/digital';
 import Negocio from './../Pages/negocio';
+import Cambio from './../Pages/cambio';
+import Simulador from './../Pages/simulador';
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Service />
       <Digital />
       <Negocio />
+      <Cambio />
+      <Simulador />
     </div>
   );
 }
