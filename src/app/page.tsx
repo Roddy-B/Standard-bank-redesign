@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from './../Pages/hero';
+import Heros from './../Pages/hero';
 import Service from './../Pages/service';
 import Digital from './../Pages/digital';
 import Negocio from './../Pages/negocio';

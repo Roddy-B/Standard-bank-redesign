@@ -1,4 +1,3 @@
-import { IconType } from "react-icons";
 import  Image  from 'next/image';
 import { FaRegCalendarAlt } from "react-icons/fa";
 import Link from "next/link";
