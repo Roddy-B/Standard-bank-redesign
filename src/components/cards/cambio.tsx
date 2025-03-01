@@ -1,5 +1,4 @@
 import  Image  from 'next/image';
-import { IconType } from "react-icons";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
 interface ServiceCardProps {

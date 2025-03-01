@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 const LibreFranklin = Libre_Franklin({
-  variable: "--font-geist-mono",
+  variable: "--font-libre-franklin",
   subsets: ["latin"],
 });
 
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${LibreFranklin.variable} antialiased`}
       >
         <Header />
         {children}
