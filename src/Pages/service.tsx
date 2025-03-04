@@ -17,12 +17,12 @@ export default function Servicos() {
                     <p className="text-lg text-bluetext pt-2">Como podemos te ajudar?</p>
                 </div>
                 <div className=" flex justify-between mb-4">
-                        <Card icon={MdOutlineAccountBalance} text="Conta Bancaria"/>
-                        <Card icon={MdCreditCard} text="Cartões de crédito"/>
-                        <Card icon={MdDirectionsCar} text="Empréstimos para Veículos"/>
-                        <Card icon={IoHomeOutline} text="Empréstimos para habitação"/>
-                        <Card icon={IoWalletSharp} text="Fazer pagamentos"/>
-                        <Card icon={PiSuitcaseRolling} text="Fazer uma viagem"/>
+                        <Card icon={MdOutlineAccountBalance} text="Conta Bancaria" alt="conta"/>
+                        <Card icon={MdCreditCard} text="Cartões de crédito" alt="cartoes"/>
+                        <Card icon={MdDirectionsCar} text="Empréstimos para Veículos" alt="emprestimo"/>
+                        <Card icon={IoHomeOutline} text="Empréstimos para habitação" alt="habitacao"/>
+                        <Card icon={IoWalletSharp} text="Fazer pagamentos" alt="pagamento"/>
+                        <Card icon={PiSuitcaseRolling} text="Fazer uma viagem" alt="viagem"/>
                 </div>
             </div>
         </section>
