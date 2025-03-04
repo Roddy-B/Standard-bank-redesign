@@ -29,6 +29,9 @@ export default {
         lnH: "52px",
         lnL: "25px",
       },
+      gridTemplateRows: {
+        "2": "repeat(2, 1fr)", // Adds `grid-rows-2`
+      },
     },
   },
   plugins: [],
