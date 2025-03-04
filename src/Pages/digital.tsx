@@ -5,7 +5,7 @@ import Link  from 'next/link';
 export default function Digital () {
     return (
         <div className="flex justify-center items-center py-28">
-            <div className=" flex w-[1216px] h-[496px] bg-primary py-14 px-28 justify-between rounded">
+            <div className=" flex w-[1216px] h-[496px] mx-auto bg-primary py-14 px-28 justify-between rounded">
                 <div className="text-white">
                     <h1 className="text-5xl font-medium font-franklin leading-lnH pt-4">Digitalize sua vida</h1>
                     <p className="text-lg font-base font-inter leading-lnL">
@@ -22,8 +22,8 @@ export default function Digital () {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 grid-rows-2 gap-8">
-                    <Card imageSrc="/bol.png" text="Bol"/>
-                    <Card imageSrc="/Netplus.png" text="Net Plus"/>
+                    <Card imageSrc="/Bol.png" text="Bol"/>
+                    <Card imageSrc="/NetPlus.png" text="Net Plus"/>
                     <Card imageSrc="/QuiQ.png" text="QuiQ"/>
                     <Card imageSrc="/ATM.png" text="Grande Depositos"/>
                 </div>
