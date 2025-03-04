@@ -7,6 +7,31 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Libre Farnklin";
+  src: url("/fonts/LibreFranklin-Bold.tff") format("tff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libre Farnklin";
+  src: url("/fonts/LibreFranklin-SemiBold.tff") format("tff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libre Farnklin";
+  src: url("/fonts/LibreFranklin-Medium.tff") format("tff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Libre Farnklin";
+  src: url("/fonts/LibreFranklin-Regular.tff") format("tff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
