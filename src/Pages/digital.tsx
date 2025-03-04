@@ -6,7 +6,7 @@ import { Card } from '@/components/cards/page';
 export default function Digital() {
 
     return (
-        <div className=" mx-auto flex items-center justify-center p-28 font-franklin h-[720px]">
+        <div className=" mx-auto flex items-center justify-center py-28 font-franklin">
             <div className=" flex  gap-16 justify-center bg-primary p-16 rounded">
                 <div className="flex flex-col items-start justify-center ">
                     <h1 className="text-4xl md:text-5xl font-medium font-franklin leading-lnH pt-4">
