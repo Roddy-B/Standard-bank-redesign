@@ -5,19 +5,19 @@ import Image from 'next/image';
 
 const slides = [
   {
-    src: '/slide1.png',
+    src: '/images/slide1.png', 
     alt: 'Image 1',
     title: 'Banco pessoal simplificado',
     description: 'Escolha os produtos certos da nossa gama completa de soluções bancárias pessoais, para atender às suas necessidades financeiras.',
   },
   {
-    src: '/slide2.jpg',
+    src: '/images/slide2.jpg',
     alt: 'Image 2',
     title: 'Nao seja alvos de fraudes online',
     description: 'Seja extremamente vigilante contra golpes. arme-se entendendo o que procurar',
   },
   {
-    src: '/slide3.jpg',
+    src: '/images/slide3.jpg',
     alt: 'Image 3',
     title: 'O seu negócio é o nosso negócio',
     description: 'aproveite nossa oferta de produtos e serviços para melhor iniciar o seu negócio',
